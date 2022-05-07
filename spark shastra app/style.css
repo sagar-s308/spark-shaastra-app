@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin:0 ;
+
+}
+
+body{
+    background-color: beige;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    padding-bottom: 0%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#main-header{
+    background-color: coral;
+
+}
+
+#navbar{
+    background-color: black;
+     padding-bottom: 10px;
+    padding-top: 10px;
+    }
+
+
+
+.menu li{
+    padding: 0%;
+    display: inline;
+    
+    list-style: none;
+    
+    color: #fff;
+
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+ .menus a:hover{
+    color: aqua;
+}
+
+#content {
+    text-align: center;
+    font-size: 2em;
+    padding: 15px 0;
+    background-image: url(/bg-2.jpg);
+    background-position: center ;
+   background-color: rgb(2, 2, 54);
+   min-height: 200px;
+    background-repeat: no-repeat;
+    font-family: 'Arial Narrow Bold', sans-serif;
+   margin-bottom: 30px; 
+    color: #fff;
+    line-height: 2em;
+}
+#content h1{
+    font-size: 50px;
+}
+.container{
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+}
+.container h1{
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+#main {
+  text-align: center;
+  padding: 15px;
+}
+#sidebar{
+    float: right;  
+    width: 30%;
+    color: coral;
+    padding: 0px 10px;
+    margin-top: 60px;
+    border: solid black;
+    background-color: #555;
+}
+#about  {
+    padding: 15px;
+}
+.timeline{
+    
+margin-bottom: 50px;
+margin-left: 30px;
+}
+.timeline h1{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+
+}
+.card{
+    margin: auto;
+    text-align: center;
+  
+}
+
+.card-top{
+    font-size: 60px;
+    color: black;
+    padding-bottom: 10px;
+    
+}
+.word{
+    color: black;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    
+}
+.element{
+    float: left;
+    width: 20%;
+    padding-right: 10px;
+   
+}
+
+
+#main-footer{
+   
+    background-color: black;
+    color: white;
+   height: 130px;
+   padding-top: 0;
+  padding-bottom: 0;
+  margin-top:120px;
+    
+}
+.section {
+    height: 130px;
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 10px;
+   border-right: solid #fff 1px;
+  
+}
+.section pre{
+    font-family: 'Arial Narrow Bold', sans-serif ;
+}
+
